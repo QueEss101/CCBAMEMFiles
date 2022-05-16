@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UWAUconfig>
+  <Date>2021-08-02</Date>
+  <Version>1.0.210802.0003</Version>
+  <Comment>First Attempt</Comment>
+  <AppToUninstall>
+    <Name>TeamViewer</Name>
+    <SearchFilter>TeamViewer*</SearchFilter>
+    <Vendor>TeamViewer</Vendor>
+    <UnunstallMethod>WMI</UnunstallMethod>
+    <ComputerException>5CG123456</ComputerException>
+  </AppToUninstall>
+  <AppToUninstall>
+    <Name>BlueJeans</Name>
+    <SearchFilter>BlueJeans*</SearchFilter>
+    <Vendor>BlueJeans</Vendor>
+    <UnunstallMethod>WMI</UnunstallMethod>
+  </AppToUninstall>
+  <AppToUninstall>
+    <Name>Dameware</Name>
+    <SearchFilter>Dameware*</SearchFilter>
+    <Vendor>NT-Aware</Vendor>
+    <UnunstallMethod>WMI</UnunstallMethod>
+  </AppToUninstall>
+  <AppToUninstall>
+    <Name>VLC media player</Name>
+    <SearchFilter>VLC media player*</SearchFilter>
+    <Vendor>VLC</Vendor>
+    <UnunstallMethod>WMI</UnunstallMethod>
+  </AppToUninstall>
+  <AppToUninstall>
+    <Name>Mozilla FireFox</Name>
+    <SearchFilter>Mozilla FireFox*</SearchFilter>
+    <Vendor>Mozilla</Vendor>
+    <MinimumVersiontoAllow>90.0.2</MinimumVersiontoAllow>
+    <UnunstallMethod>WMI</UnunstallMethod>
+  </AppToUninstall>
+</UWAUconfig>
